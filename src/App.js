@@ -4,11 +4,17 @@ import './App.css';
 import  FirstComponent from './components/example-components/FirstComponent';
 import  SecondComponent from './components/example-components/SecondComponent';
 import  Counter from './components/counter/Counter';
+import ToDoApp from './components/Todo/ToDoApp';
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {
+        <ToDoApp/>
+        /* <Counter/>
         <Counter/>
+        <Counter by={5}/>
+        <Counter by={10}/> */}
       </div>
     );
   }
